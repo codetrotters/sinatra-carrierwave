@@ -1,0 +1,5 @@
+development:
+  url: <%= ENV['DEV_DATABASE_URL'] %>
+
+production:
+  url: <%= ENV['DATABASE_URL'] %>
